@@ -5,7 +5,7 @@ import { Home, Products, ProductDetail, About, Contact } from './pages';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/niralis-crafted-wonders">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
