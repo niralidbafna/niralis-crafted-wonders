@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Footer, NotFound } from './components';
 import { Home, Products, ProductDetail, About, Contact } from './pages';
 
 function App() {
   return (
-    <Router basename="/niralis-crafted-wonders">
+    <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
